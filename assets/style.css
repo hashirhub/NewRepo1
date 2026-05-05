@@ -438,3 +438,23 @@ nav {
  
 /* ── CTA BANNER ── */
 .cta-banner {
+      background: linear-gradient(135deg, var(--purple) 0%, var(--navy) 100%);
+  color: var(--white);
+  text-align: center;
+  padding: 80px 24px;
+}
+.cta-banner h2 {
+  font-family: var(--font);
+  font-weight: 800;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  margin-bottom: 0.5rem;
+}
+.cta-banner p {
+  font-size: 1rem;
+  opacity: 0.8;
+  margin-bottom: 0.5rem;
+}
+ 
+/* ── INSIGHTS ── */
+.insights {
+  max-width: 1200px;
