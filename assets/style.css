@@ -278,3 +278,23 @@ nav {
   flex-wrap: wrap;
 }
 .featured-label {
+      font-family: var(--font);
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--gray-text);
+  white-space: nowrap;
+}
+.featured-logos {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+.media-logo {
+  font-family: var(--font);
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: var(--gray-dark);
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
