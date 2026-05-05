@@ -98,3 +98,13 @@ nav {
   gap: 2rem;
 }
 .logo {
+      display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font);
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: var(--navy);
+}
+.logo-icon {
+  width: 32px; height: 32px;
