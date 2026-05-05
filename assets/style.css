@@ -198,3 +198,23 @@ nav {
   display: grid;
   place-items: center;
   position: relative;
+  }
+.scan-pulse {
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: 2px solid var(--yellow);
+  opacity: 0.4;
+  animation: pulse 2s ease-out infinite;
+}
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.4; }
+  100% { transform: scale(1.4); opacity: 0; }
+}
+.scan-icon { font-size: 2rem; }
+.scan-lines { width: 100%; display: flex; flex-direction: column; gap: 8px; }
+.scan-line {
+  height: 8px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 4px;
+  width: 100%;
