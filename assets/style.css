@@ -128,3 +128,13 @@ nav {
   color: var(--gray-dark);
   transition: color 0.2s;
 }
+.nav-links a:hover { color: var(--purple-mid); }
+.nav-cta { margin-left: 1rem; }
+ 
+/* ── HERO ── */
+.hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 24px 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
