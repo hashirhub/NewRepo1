@@ -58,3 +58,13 @@ ul { list-style: none; }
   border: 2px solid var(--navy);
 }
 .btn-outline:hover { background: var(--navy); color: var(--white); }
+.btn-outline-white {
+  background: transparent;
+  color: var(--white);
+  border: 2px solid rgba(255,255,255,0.6);
+}
+.btn-outline-white:hover { background: rgba(255,255,255,0.15); }
+.btn-dark {
+  background: var(--navy);
+  color: var(--white);
+  border-color: var(--navy);
