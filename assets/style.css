@@ -178,3 +178,23 @@ nav {
   height: 100%;
   background: #0f0f23;
   border-radius: 24px;
+    overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scan-ui {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+}
+.scan-circle {
+  width: 90px; height: 90px;
+  border-radius: 50%;
+  border: 3px solid var(--yellow);
+  display: grid;
+  place-items: center;
+  position: relative;
