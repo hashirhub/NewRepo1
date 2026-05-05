@@ -298,3 +298,23 @@ nav {
   opacity: 0.6;
   transition: opacity 0.2s;
 }
+.media-logo:hover { opacity: 1; }
+.media-logo.cnbc { color: #cc0000; }
+ 
+/* ── ABOUT ── */
+.about {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+.about-content h2 {
+  font-family: var(--font);
+  font-weight: 800;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  color: var(--navy);
+  margin-bottom: 1rem;
+  line-height: 1.2;
