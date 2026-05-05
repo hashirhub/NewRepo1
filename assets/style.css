@@ -338,3 +338,23 @@ nav {
 .about-photo-bg::before {
   content: '';
   position: absolute;
+   inset: 0;
+  background: linear-gradient(135deg, rgba(61,44,141,0.08) 0%, transparent 60%);
+}
+.about-photo-inner {
+  font-size: 6rem;
+  animation: bob 4s ease-in-out infinite;
+}
+@keyframes bob {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+ 
+/* ── FEATURES ── */
+.features {
+  background: var(--gray-bg);
+  padding: 80px 24px;
+  text-align: center;
+}
+.features h2 {
+  font-family: var(--font);
