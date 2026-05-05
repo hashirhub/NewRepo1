@@ -558,3 +558,23 @@ footer {
   background: rgba(255,255,255,0.1);
   border-radius: 8px;
   display: grid;
+    place-items: center;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+.social-icon:hover { background: var(--yellow); }
+.footer-legal {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 0.75rem;
+}
+.footer-legal a {
+  font-size: 0.75rem;
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+.footer-legal a:hover { opacity: 1; }
+.copyright { font-size: 0.72rem; opacity: 0.35; }
+ 
+.footer-col h4 {
+  font-family: var(--font);
