@@ -613,3 +613,8 @@ footer {
   padding: 10px 16px;
   border-radius: 50px;
   border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.08);
+  color: var(--white);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  outline: none;
