@@ -618,3 +618,13 @@ footer {
   font-family: var(--font-body);
   font-size: 0.85rem;
   outline: none;
+  }
+.newsletter-form input::placeholder { color: rgba(255,255,255,0.4); }
+.newsletter-form input:focus { border-color: var(--yellow); }
+ 
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .hero, .about {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
