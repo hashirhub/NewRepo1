@@ -48,3 +48,13 @@ ul { list-style: none; }
 }
 .btn-primary {
   background: var(--yellow);
+    color: var(--navy);
+  border-color: var(--yellow);
+}
+.btn-primary:hover { background: var(--yellow-dark); border-color: var(--yellow-dark); transform: translateY(-1px); }
+.btn-outline {
+  background: transparent;
+  color: var(--navy);
+  border: 2px solid var(--navy);
+}
+.btn-outline:hover { background: var(--navy); color: var(--white); }
