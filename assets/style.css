@@ -68,3 +68,13 @@ ul { list-style: none; }
   background: var(--navy);
   color: var(--white);
   border-color: var(--navy);
+  }
+.btn-dark:hover { background: #2d2d4e; }
+ 
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 1.5rem;
+}
+.btn-group.center { justify-content: center; }
