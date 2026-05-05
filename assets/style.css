@@ -138,3 +138,13 @@ nav {
   padding: 80px 24px 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+    gap: 60px;
+  align-items: center;
+  min-height: 540px;
+}
+.hero-content h1 {
+  font-family: var(--font);
+  font-weight: 800;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.15;
+  color: var(--navy);
