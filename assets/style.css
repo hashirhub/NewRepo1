@@ -418,3 +418,23 @@ nav {
 }
 .info-card {
   border-radius: 20px;
+    padding: 40px;
+}
+.info-card.yellow { background: var(--yellow); }
+.info-card.light { background: var(--gray-bg); border: 1px solid rgba(0,0,0,0.08); }
+.info-card h3 {
+  font-family: var(--font);
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: var(--navy);
+  margin-bottom: 0.75rem;
+}
+.info-card p {
+  color: var(--gray-dark);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+ 
+/* ── CTA BANNER ── */
+.cta-banner {
