@@ -538,3 +538,23 @@ footer {
   grid-template-columns: 1.5fr 1fr 1.5fr;
   gap: 48px;
 }
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font);
+  font-weight: 800;
+  font-size: 1.25rem;
+  margin-bottom: 4px;
+}
+.footer-tagline {
+  font-size: 0.85rem;
+  opacity: 0.6;
+  margin-bottom: 1rem;
+}
+.social-icons { display: flex; gap: 12px; margin-bottom: 1.2rem; }
+.social-icon {
+  width: 36px; height: 36px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 8px;
+  display: grid;
