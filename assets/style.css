@@ -598,3 +598,8 @@ footer {
   margin-bottom: 0.75rem;
   color: var(--yellow);
 }
+.footer-newsletter p {
+  font-size: 0.85rem;
+  opacity: 0.65;
+  line-height: 1.6;
+  margin-bottom: 1rem;
