@@ -498,3 +498,23 @@ nav {
   background: var(--purple-mid);
   color: var(--white);
   font-family: var(--font);
+   font-size: 0.72rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 50px;
+}
+.insight-img.guide .tag { background: var(--yellow-dark); color: var(--navy); }
+.insight-thumb {
+  font-size: 4rem;
+  position: absolute;
+  right: 16px;
+  bottom: 8px;
+}
+.insight-card h4 {
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--navy);
+  margin: 16px 16px 8px;
+  line-height: 1.3;
+}
