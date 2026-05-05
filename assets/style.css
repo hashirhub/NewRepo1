@@ -8,3 +8,13 @@
   --navy: #1A1A2E;
   --purple: #3D2C8D;
   --purple-mid: #5B3FD4;
+   --white: #FFFFFF;
+  --gray-bg: #F4F6FA;
+  --gray-text: #6B7280;
+  --gray-dark: #374151;
+  --text: #111827;
+  --radius: 16px;
+  --shadow: 0 4px 24px rgba(0,0,0,0.08);
+  --font: 'Manrope', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+}
