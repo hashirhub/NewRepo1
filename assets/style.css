@@ -478,3 +478,23 @@ nav {
   border-radius: var(--radius);
   overflow: hidden;
   border: 1px solid rgba(0,0,0,0.08);
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+.insight-card:hover {
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  transform: translateY(-4px);
+}
+.insight-img {
+  height: 160px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 16px;
+  position: relative;
+}
+.insight-img.expertise { background: linear-gradient(135deg, #e8eaf6 0%, #c5cae9 100%); }
+.insight-img.guide { background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%); }
+.tag {
+  background: var(--purple-mid);
+  color: var(--white);
+  font-family: var(--font);
