@@ -378,3 +378,23 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 32px;
+   margin-bottom: 2rem;
+}
+.feature-item { text-align: left; }
+.feature-icon {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  display: block;
+}
+.feature-item h3 {
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+.feature-item p {
+  font-size: 0.83rem;
+  color: var(--gray-text);
+  line-height: 1.6;
+}
