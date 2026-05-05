@@ -258,3 +258,23 @@ nav {
   font-size: 0.85rem;
   color: var(--gray-dark);
   line-height: 1.6;
+    margin-bottom: 12px;
+}
+.reviewer {
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--navy);
+}
+ 
+/* ── FEATURED IN ── */
+.featured {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 36px 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.featured-label {
