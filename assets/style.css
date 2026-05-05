@@ -318,3 +318,23 @@ nav {
   color: var(--navy);
   margin-bottom: 1rem;
   line-height: 1.2;
+  }
+.about-content p {
+  color: var(--gray-text);
+  line-height: 1.7;
+  font-size: 1rem;
+}
+.about-image { display: flex; justify-content: center; }
+.about-photo-bg {
+  width: 340px; height: 280px;
+  background: var(--gray-bg);
+  border-radius: var(--radius);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.about-photo-bg::before {
+  content: '';
+  position: absolute;
