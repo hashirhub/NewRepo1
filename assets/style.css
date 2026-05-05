@@ -218,3 +218,23 @@ nav {
   background: rgba(255,255,255,0.1);
   border-radius: 4px;
   width: 100%;
+   animation: shimmer 1.5s ease-in-out infinite alternate;
+}
+.scan-line.short { width: 60%; }
+@keyframes shimmer {
+  from { opacity: 0.1; }
+  to { opacity: 0.3; }
+}
+ 
+/* ── REVIEWS ── */
+.reviews {
+  background: var(--yellow);
+  padding: 60px 24px;
+  text-align: center;
+}
+.reviews h2 {
+  font-family: var(--font);
+  font-weight: 800;
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  color: var(--navy);
+  margin-bottom: 2rem;
