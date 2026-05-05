@@ -578,3 +578,23 @@ footer {
  
 .footer-col h4 {
   font-family: var(--font);
+    font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  color: var(--yellow);
+}
+.footer-col ul { display: flex; flex-direction: column; gap: 8px; }
+.footer-col a {
+  font-size: 0.88rem;
+  opacity: 0.65;
+  transition: opacity 0.2s;
+}
+.footer-col a:hover { opacity: 1; }
+ 
+.footer-newsletter h4 {
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+  color: var(--yellow);
+}
