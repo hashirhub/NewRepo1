@@ -38,3 +38,13 @@ ul { list-style: none; }
   gap: 6px;
   padding: 12px 24px;
   border-radius: 50px;
+   font-family: var(--font);
+  font-weight: 700;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+.btn-primary {
+  background: var(--yellow);
