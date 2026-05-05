@@ -638,3 +638,8 @@ footer {
   .footer-top { grid-template-columns: 1fr; gap: 32px; }
   .nav-links { display: none; }
 }
+@media (max-width: 600px) {
+  .reviews-track { grid-template-columns: 1fr; }
+  .features-grid { grid-template-columns: 1fr; }
+}
+ 
