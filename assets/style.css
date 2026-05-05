@@ -118,3 +118,13 @@ nav {
 }
 .nav-links {
   display: flex;
+   gap: 1.5rem;
+  margin-left: auto;
+}
+.nav-links a {
+  font-family: var(--font);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--gray-dark);
+  transition: color 0.2s;
+}
