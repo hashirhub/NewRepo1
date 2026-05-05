@@ -398,3 +398,23 @@ nav {
   color: var(--gray-text);
   line-height: 1.6;
 }
+.features-cta {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--gray-bg);
+}
+ 
+/* ── TWO CARDS ── */
+.two-cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.info-card {
+  border-radius: 20px;
