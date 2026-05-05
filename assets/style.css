@@ -458,3 +458,23 @@ nav {
 /* ── INSIGHTS ── */
 .insights {
   max-width: 1200px;
+   margin: 0 auto;
+  padding: 80px 24px;
+}
+.insights h2 {
+  font-family: var(--font);
+  font-weight: 800;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  color: var(--navy);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.insights-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.insight-card {
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid rgba(0,0,0,0.08);
